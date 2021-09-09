@@ -20,4 +20,3 @@ console.log(arr3[6])/* aqui busca-se o sexto elemento da array(push)*/
 console.log(arr3[2][0])
 console.log(arr3)
 let n=6   /*aqui podemos usar uma variavel para acessar um elemento de array(push)*/
-console.log(arr3[n])/*aqui podemos usar uma variavel para acessar um elemento de array(push)*/
