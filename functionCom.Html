@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> function</title>
+</head>
+<body>
+    <script>
+        function escreva(){
+            console.log('olá, programador a bordo!')
+}       
+escreva();
+escreva();
+console.log('teste');
+escreva();
+escreva();
+function escrevaMensagem(mensagem){
+    console.log(mensagem);
+}
+escrevaMensagem('Hello, World');
+var msg = escrevaMensagem('Airton Teshima');
+console.log(msg);
+function soma(a, b){
+ return a+b;
+
+}
+var resultadoSoma = soma(10,5);
+console.log(resultadoSoma);
+
+function somaTudo(numeros){
+  var total =0;
+  for (var num of numeros){
+      total = total + num;
+  }
+  return total;
+}
+var arrayNumeros = ([3,5,7,10,9,12]);
+var resultado = somaTudo(arrayNumeros)
+console.log(resultado);
+function escreverEndereco(rua, cidade, pais,...complemento)
+{
+    console.log(rua);
+    console.log(cidade);
+    console.log(pais);
+}
+escreverEndereco('Rua Programador a Bordo',
+ 'Rio de Janeiro', 
+'Brasil', 'Estado de Janeiro',
+ 'Casa xpto', 'CEP 312123123', 'Bloco 15');
+//funçao auto-executável ((){()}())
+    (function (nome){
+        console.log('Executei', nome);
+    }('Airton'));
+
+//Armazenando uma função em uma variável
+var subtrai = function subtrai(a,b) {
+    return a-b;
+};
+var subtraiDoisNumeros = function subtrai(a,b) {}
+console.log(subtraiDoisNumeros(10,3));
+//.log(subtrai(10,3)) //se eu pedir para imprimir direto vai dar erro
+
+
+// FUNÇÃO ANÔNIMA
+var subtraiTresNumeros = function (a,b,c) {
+    return a-b-c
+};
+console.log(subtraiTresNumeros(15, 3 ,6))
+    </script>
+</body>
+</html>
+
+
