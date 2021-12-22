@@ -1,6 +1,6 @@
-export const valores = [12,34,5,6,6,45,45]
-export  const numerosSemRepeticao = [...new Set(valores)]
-numerosSemRepeticao.sort((a,b)=>a-b)
+import { 
+    numerosSemRepeticao 
+} from "./numeroSemRepetição";
 console.log("ordenados - "+numerosSemRepeticao)
 numerosSemRepeticao.pop()
 console.log("sem o ùltimo numero - "+numerosSemRepeticao)
