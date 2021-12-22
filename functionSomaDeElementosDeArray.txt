@@ -1,0 +1,5 @@
+function simpleArraySum(ar,soma) {
+    
+for(var i = 0; i < ar.length; i++) {
+    soma = ar[i];
+return
