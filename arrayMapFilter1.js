@@ -19,6 +19,3 @@ console.log(somaCallBack(5,9, multiplica));
 console.log(somaCallBack(5,2,somaVinte));
 console.log(somaCallBack(23,11,dividePorDois));
 
-export {
-    multiplica,somaVinte,dividePorDois
-}

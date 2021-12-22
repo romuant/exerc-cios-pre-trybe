@@ -4,16 +4,20 @@
         const numeros = [...new Set(nums)]
         // ordenamento
         numeros.sort((a, b) => {
-            console.log(numeros)
-            if (a > b) {console.log(a, b, numeros);  return -1}
-            if (a < b) {console.log(a,b, numeros);return 1}
+            if (a > b) {
+                return 1
+            }
+            if (a < b) {
+                return -1
+            }
         })
+
         
         
-        console.log(numeros[1])
-        return numeros[1];
+        console.log(numeros)
+        return numeros;
     }
-getSecondLargest([1, 51])
+getSecondLargest([1,69,2,455,455,69])
 
 
 

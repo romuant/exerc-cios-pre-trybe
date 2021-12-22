@@ -4,7 +4,7 @@
                 for (const e of nums) {
                     if (max1 < e) {
                         max1 = e;
-                        console.log(nums)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
                     }
                 }
                 
@@ -17,4 +17,4 @@
                 
                 return max2;
             }
-            console.log(getSecondLargest(2,3,6,6,5))
+            console.log(getSecondLargest([2,3,6,6,5]))

@@ -21,7 +21,7 @@ let varTeste = null;
 console.log(varTeste);
 console.log(typeof varTeste);
 varteste = 10;
-console.log(typeof varteste,vateste);
+console.log(typeof varteste,varteste);
 
 var a = 0
 let b = 0
