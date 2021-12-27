@@ -1,4 +1,4 @@
-let nomes = ['Alice', 'Bob', 'Tiff','Tiff' , 'Bruce', 'Alice','Alice'];
+let nomes = ['Romulo', 'dudu', 'Silvania','Toninho' , 'Paulinho', 'Silvania','Silvania'];
 
 let quantidadeNomes = nomes.reduce(function (todosNomes, nome) {
   if (nome in todosNomes) {

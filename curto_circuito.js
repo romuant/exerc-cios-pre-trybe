@@ -47,6 +47,6 @@ isValid vai receber false e o operador
  ou (||) aí  sera executado a linha do
  console .log porque a primeira linha do 
  (||) será ignorada e executada a segunda
- r true como entrada seráexecutada apenas
-  a primeira parte do ou seja nada. 
+ r true como entrada será executada apenas
+  a primeira parte  ou seja, nada. 
 */
