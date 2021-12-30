@@ -3,4 +3,4 @@ let i=0
 //poderia ser i=i+1 ou i+=1 ou i++
 console.log(i--);
 console.log(i);
-//poderia ser tambem console.log(i--) era vai diminuir 1 sera igual -1
+//poderia ser tambem console.log(i--) e vai diminuir 1, sera igual -1

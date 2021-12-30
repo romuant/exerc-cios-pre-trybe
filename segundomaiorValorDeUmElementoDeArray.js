@@ -11,10 +11,7 @@
                 return -1
             }
         })
-
-        
-        
-        console.log(numeros)
+ console.log(numeros)
         return numeros;
     }
 getSecondLargest([1,69,2,455,455,69])
