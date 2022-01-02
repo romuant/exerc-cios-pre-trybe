@@ -14,7 +14,7 @@ multiplos2 = numeros.reduce((previ, item) => {
     return previ
     
 } ,[])
-console.log('multiplos de dois dos numeros são:', multiplos2)
+console.log('multiplos de tres dos numeros são:', multiplos2)
 const newValue = {}
 colecaoNumerosReducer = function (previ, curr, i) {
     //
@@ -25,7 +25,10 @@ colecaoNumerosReducer = function (previ, curr, i) {
 const colecaoNumeros = numeros.reduce(colecaoNumerosReducer, newValue)
 /* {}  */
 console.log('coleção dos numeros é', colecaoNumeros)
-console.log('valor na posição 0: ', colecaoNumeros[0])
+console.log('valor na posição 1: ', colecaoNumeros[1])
+console.log('valor na posição 2: ', colecaoNumeros[2])
+console.log('valor na posição 3: ', colecaoNumeros[3])
+console.log('valor na posição 4: ', colecaoNumeros[4])
 
 
 
