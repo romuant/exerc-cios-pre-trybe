@@ -1,4 +1,5 @@
 const numeros = [2,4,-440,5,5,7,89,90,1000]
+console.log("numeros originais :" +numeros)
 const numerosSemRepeticao = [...new Set(numeros)];
 
    console.log("numeroSemRepetição : " +numerosSemRepeticao.sort((a,b)=>a-b) )
