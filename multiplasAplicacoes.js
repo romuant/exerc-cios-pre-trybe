@@ -4,8 +4,10 @@ const numerosSemRepeticao = [...new Set(numeros)];
 
    console.log("numeroSemRepetição : " +numerosSemRepeticao.sort((a,b)=>a-b) )
 console.log("ordenados : "+numerosSemRepeticao)
+numerosSemRepeticao.splice(-1,1)
+console.log("sem o ùltimo numero(com splice) : "+numerosSemRepeticao)
 numerosSemRepeticao.pop()
-console.log("sem o ùltimo numero : "+numerosSemRepeticao)
+console.log("sem o ùltimo numero(com pop) : "+numerosSemRepeticao)
 numerosSemRepeticao.reverse()
 console.log("invertidos : "+numerosSemRepeticao)
 numerosSemRepeticao.shift()
