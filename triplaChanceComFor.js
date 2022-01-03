@@ -1,0 +1,11 @@
+const  nums =[33,15,81,90]
+const mult3 = nums.map(a => a *3)
+console.log(mult3)
+const div3 =nums.map(a=>a/3)
+console.log(div3)
+const soma3 =nums.map(a=>a+3)
+console.log(soma3)
+const subtr3 =nums.map(a=>a-3)
+console.log(subtr3)
+const expoent3 =nums.map(a=>a**3)
+console.log(expoent3)

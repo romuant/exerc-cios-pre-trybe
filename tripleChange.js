@@ -1,6 +1,7 @@
-chances =[2,5,8,9,12]
-function multiplyByThree (el) {
-        return el * 3
+
+function multiplyByThree (chances) {
+        return chances.map(item=>item*3)
     }
-    return chances.map(multiplyByThree)
-    console.log(chances)
+console.log(multiplyByThree([2,3,4,]))
+
+    
