@@ -19,7 +19,7 @@ function comRegex(frase, letraProcurada) {
 function comFor(frase, letraProcurada) {
     var quantidade = 0;
     for (var i = 0; i < frase.length; i++) {
-        if (frase[i] == letraProcurada) {
+        if (frase[i] === letraProcurada) {
             quantidade++
         }
     }
