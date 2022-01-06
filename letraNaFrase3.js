@@ -6,6 +6,7 @@ function comForEach(frase, letraProcurada) {
     [...frase].forEach(letra => {
         if (letra === letraProcurada)
             total++;
+            
     });
     return total;
 }
