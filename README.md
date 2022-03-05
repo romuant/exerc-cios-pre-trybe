@@ -1,1 +1,1 @@
-# javascript
+Meus exercícos pré trybe.
